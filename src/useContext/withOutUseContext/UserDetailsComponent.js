@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ChildComponent from "./ChildComponent";
 
-function UserDetailsComponent() {
+function UserDetailsComponentNoContext() {
   const [userDetails, setUserDetails] = useState({
     name: "John Doe",
     age: 23,
@@ -16,4 +16,4 @@ function UserDetailsComponent() {
   );
 }
 
-export default UserDetailsComponent;
+export default UserDetailsComponentNoContext;

@@ -1,9 +1,10 @@
 import React from "react";
-import UserDetailsComponent from "./useContext/withOutUseContext/UserDetailsComponent";
+
+import UserDetailsComponentNoContext from "./useContext/withOutUseContext/UserDetailsComponent";
 function App() {
   return (
     <div className="">
-      <UserDetailsComponent />
+      <UserDetailsComponentNoContext />
     </div>
   );
 }
