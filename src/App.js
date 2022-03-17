@@ -1,9 +1,9 @@
 import React from "react";
-import WithOutUseContext from "./useContext/withOutUseContext";
+import UserDetailsComponent from "./useContext/withOutUseContext/UserDetailsComponent";
 function App() {
   return (
     <div className="">
-      <WithOutUseContext />
+      <UserDetailsComponent />
     </div>
   );
 }
