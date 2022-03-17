@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ChildComponent from "./ChildComponent";
 
 function UserDetailsComponent() {
-  var [userDetails, setUserDetails] = useState({
+  const [userDetails, setUserDetails] = useState({
     name: "John Doe",
     age: 23,
   });
